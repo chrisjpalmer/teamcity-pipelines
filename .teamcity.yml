@@ -4,6 +4,6 @@ jobs:
     steps:
       - type: script
         name: hello world
-        script-content: echo 'hello world!!'
+        script-content: echo 'hello chris'
         docker-image: alpine:latest
     runs-on: Linux-Medium
