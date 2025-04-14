@@ -6,5 +6,4 @@ jobs:
         name: hello world
         script-content: echo 'hello world!!'
         docker-image: alpine:latest
-      - type: script
     runs-on: Linux-Medium
