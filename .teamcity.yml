@@ -1,5 +1,9 @@
 jobs:
   Job1:
     name: Job 1
-    steps: []
+    steps:
+      - type: script
+        name: hello world
+        script-content: echo 'hello world'
+        docker-image: alpine:latest
     runs-on: Linux-Medium
